@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb://<dbuser>:<dbpassword>@ds249249.mlab.com:49249/heroku_fz9s24b0",
+    "mongodb://rgarza28:caballero28@ds249249.mlab.com:49249/heroku_fz9s24b0",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
